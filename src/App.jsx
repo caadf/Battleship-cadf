@@ -1,8 +1,12 @@
 import React from 'react';
+import Tablero from './componentes/tablero';
 
 const App = () => {
     return (
-        <h1>REACT APP</h1>
+        <>
+        <Tablero />
+       
+    </>
     )
 }
 

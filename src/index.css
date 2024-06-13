@@ -1,0 +1,22 @@
+.container{
+  justify-content: center;
+}
+.tile{
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  max-width: 6vw !important;
+  max-height: 60px;
+  height: 6vh !important;
+  background: rgba(247, 247, 247, 0.9);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+
+.header{
+  background: black;
+  color: white;
+}
