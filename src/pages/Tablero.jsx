@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-//Creando el tablero  del juego
+//Generar el tablero  del juego
 
 const Tablero = () => {
   const gameboard = {
