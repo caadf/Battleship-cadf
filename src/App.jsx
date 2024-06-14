@@ -1,13 +1,21 @@
 import React from 'react';
-import Tablero from './componentes/tablero';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Menu from './pages/menu';
+import Tablero from './pages/tablero';
 
 const App = () => {
     return (
         <>
-        <Tablero />
+      <BrowserRouter>
+            <Routes>
+            <Route path='/' element={<Menu />} />
+            <Route path='/tablero' element={<Tablero />} />
+            </Routes>
+        </BrowserRouter>
        
     </>
     )
 }
 
 export default App;
+
