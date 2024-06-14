@@ -8,7 +8,6 @@ Juego en el cual se generan dos tableros con naves en cada uno,  con dos partici
 - Bootstrap
 - React
 
-------------
 
 ## Instalación del juego y sus dependencias
 
