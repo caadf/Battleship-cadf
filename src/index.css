@@ -1,11 +1,42 @@
+
+body{
+  background-color: #304040
+}
 .container{
-  display: flex;
+  margin-top: 20%;
+}
+
+
+.boton-play{
+  display:flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  font-size: large;
+  color: #EB8A3E;
+
+}
+
+h1{
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size:300%;
+  font-family: monospace;
+}
+
+h3{
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+  color:#5B7065;
 }
 
 .table{
-  width:250px;
-  height: 250px;
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.titulo{
+  background-color: #C9D1C8;
 }
