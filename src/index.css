@@ -40,3 +40,149 @@ h3{
 .titulo{
   background-color: #C9D1C8;
 }
+
+.contenedor-tableros {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tablero {
+  border-collapse: collapse;
+}
+
+.cuadrado {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #8c92a1;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.etiqueta {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cuadrado.clickeable {
+  background-color: #add8e6;
+}
+
+.cuadrado.clickeable:hover {
+  border: 3px solid green;
+  background-color: #add8e6;
+}
+
+.cuadrado:not(.clickeable) {
+  background-color: #eee;
+}
+
+.cuadrado.agua {
+  color: #8dc5d7;
+}
+
+.cuadrado.nave {
+  color: #000;
+  background-color: #64a4f7;
+}
+
+/* Color del cuadrado cuando se dispara a un espacio vacío */
+.cuadrado.disparo {
+  background-color: rgb(222, 225, 226);
+}
+
+.cuadrado.nave-disparada {
+  background-color:  rgb(208, 81, 81);
+}
+
+/* -------- // BOTONES // -------- */
+
+.btn-naves-aleatorias {
+    /* box-shadow: rgba(72, 182, 190, 0.35) 0px 5px 15px; */
+    font-size: 17px;
+}
+
+.btn-naves-aleatorias:hover {
+  box-shadow: rgba(90, 224, 234, 0.519) 0px 5px 15px;
+  transition: 1s;
+}
+
+.btn-naves-aleatorias:not(:hover) {
+  transition: 1s;
+}
+
+.btn-regresar-al-menu {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.btn-jugar {
+  width: 150px;
+  height: auto;
+  background: #0e2747;
+  color: rgba(255, 255, 255);
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(49, 125, 131, 0.35) 0px 5px 15px;
+  position: absolute;
+  top: 40%;
+  margin: 0 auto;
+}
+
+.btn-jugar:hover {
+  background-color: #3b6fb4;
+  transition: 1s;
+  box-shadow: rgba(90, 224, 234, 0.519) 0px 5px 15px;
+}
+
+.btn-jugar:not(:hover) {
+  transition: 1s;
+}
+
+/* -------- // DETALLES // -------- */
+
+.turno-mensaje {
+  background-color: rgb(14, 39, 71);
+  width: 18%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 3px 0px;
+  box-shadow: rgba(28, 74, 78, 0.519) 0px 5px 15px;
+}
+
+.titulo-juego {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 20%;
+}
+
+/* -------- // BOTÓN MENÚ INICIAR JUEGO // -------- */
+
+.btn-iniciar-juego {
+  width: 120px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 60px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  top: 40%;
+}
+
+.btn-iniciar-juego:hover {
+  width: 125px;
+  height: 125px;
+  transition: .5s;
+}
+
+.btn-iniciar-juego:not(:hover) {
+  transition: .5s;
+}
